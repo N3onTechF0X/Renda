@@ -291,7 +291,6 @@ function activateSupplies() {
         unsafeWindow.RendaConfig.speed.enabled && emulateSupply("4");
         for (let i = 0; i < unsafeWindow.RendaConfig.multiply; i++) {
             unsafeWindow.RendaConfig.mine.enabled && emulateSupply("5");
-            console.log(i)
         }
     }
     lastClickTime = Date.now();
