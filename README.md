@@ -4,13 +4,11 @@
 
 # Renda
 Renda - это мощный кликер припасов для игры Танки Онлайн  
-  
-Может работать на основе CheatBase от [sheezzmee](https://github.com/sheezzmee/) (более эффективно)  
 
 
 ## Установка
 1. TamperMonkey - [click](https://www.tampermonkey.net)
-3. Renda - [click](https://github.com/N3onTechF0X/some_TO_scripts/raw/main/Renda.user.js)
+2. Renda - [click](https://github.com/N3onTechF0X/some_TO_scripts/raw/main/Renda.user.js)
 
 ## Бинды
 | **Бинд** | **Английский** | **Русский** |
