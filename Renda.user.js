@@ -9,5 +9,5 @@
 // @grant        unsafeWindow
 // @connect      raw.githubusercontent.com
 // ==/UserScript==
-/*ATTENTION: script use CheatBase*/
+
 GM_xmlhttpRequest({method:"GET",url:"https://raw.githubusercontent.com/N3onTechF0X/Renda/main/Renda.min.js",nocache:!0,onload:resp=>{eval(resp.responseText)}});
