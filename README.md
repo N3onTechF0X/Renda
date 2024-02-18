@@ -4,7 +4,7 @@
 
 # Renda
 Renda - это мощный кликер припасов для игры Танки Онлайн  
-Работает на основе CheatBase от [sheezzmee](https://github.com/sheezzmee/)
+Может работать на основе CheatBase от [sheezzmee](https://github.com/sheezzmee/) (более эффективно)  
 
 
 ## Установка
