@@ -276,13 +276,13 @@ function activateSupplies() {
         };
     }
     if (isCheatBaseActive) {
-        unsafeWindow.RendaConfig.repair.enabled && cheatBase.features.supplies.activateSupplyByName("FIRST_AID");
-        unsafeWindow.RendaConfig.shield.enabled && cheatBase.features.supplies.activateSupplyByName("DOUBLE_ARMOR");
-        unsafeWindow.RendaConfig.damage.enabled && cheatBase.features.supplies.activateSupplyByName("DOUBLE_DAMAGE");
-        unsafeWindow.RendaConfig.speed.enabled && cheatBase.features.supplies.activateSupplyByName("NITRO");
+        unsafeWindow.RendaConfig.repair.enabled && unsafeWindow.RendaConfig.cheatBase.features.supplies.activateSupplyByName("FIRST_AID");
+        unsafeWindow.RendaConfig.shield.enabled && unsafeWindow.RendaConfig.cheatBase.features.supplies.activateSupplyByName("DOUBLE_ARMOR");
+        unsafeWindow.RendaConfig.damage.enabled && unsafeWindow.RendaConfig.cheatBase.features.supplies.activateSupplyByName("DOUBLE_DAMAGE");
+        unsafeWindow.RendaConfig.speed.enabled && unsafeWindow.RendaConfig.cheatBase.features.supplies.activateSupplyByName("NITRO");
         for (let i = 0; i < unsafeWindow.RendaConfig.multiply; i++) {
-            unsafeWindow.RendaConfig.rapid.enabled && cheatBase.gameClasses.localPlayer.send(new FullStateCorrectionMessage);
-            unsafeWindow.RendaConfig.mine.enabled && cheatBase.features.supplies.activateSupplyByName("MINE");
+            unsafeWindow.RendaConfig.rapid.enabled && unsafeWindow.RendaConfig.cheatBase.gameClasses.localPlayer.send(new FullStateCorrectionMessage);
+            unsafeWindow.RendaConfig.mine.enabled && unsafeWindow.RendaConfig.cheatBase.features.supplies.activateSupplyByName("MINE");
         }
     } else {
         unsafeWindow.RendaConfig.repair.enabled && emulateSupply("1");
@@ -326,7 +326,7 @@ function closeMenu() {
 
 let isMenuOpen = false;
 document.addEventListener("keyup", ({code}) => {
-    if (isCheatBaseActive ? cheatBase.features.battleChat.isInputActive() : !!document.querySelector("input:not(.renda_slider)")) return;
+    if (isCheatBaseActive ? unsafeWindow.RendaConfig.cheatBase.features.battleChat.isInputActive() : !!document.querySelector("input:not(.renda_slider)")) return;
     switch (code) {
         case "KeyM":
             isMenuOpen ? closeMenu() : openMenu();
