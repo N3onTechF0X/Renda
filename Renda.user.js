@@ -3,7 +3,7 @@
 // @description  Powerful clicker for Tanki Online
 // @author       N3onTechF0X
 // @match        https://*.tankionline.com/*
-// @icon         https://cdn.discordapp.com/attachments/1154469342671548456/1200608934331961464/N3onTechF0X.png
+// @icon         https://raw.githubusercontent.com/N3onTechF0X/Renda/main/images/logo.png
 // @run-at       document-start
 // @grant        GM_xmlhttpRequest
 // @grant        unsafeWindow
