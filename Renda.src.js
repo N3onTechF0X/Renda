@@ -1,3 +1,4 @@
+
 unsafeWindow.RendaConfig = {
     multiply: 1,
     delay: 50,
@@ -154,8 +155,8 @@ switchContainer.classList.add("switch_container");
 
 const toogleSwitch = (element, option) => {
     unsafeWindow.RendaConfig[option].enabled = !unsafeWindow.RendaConfig[option].enabled;
-    element.classList.toggle("switch_on", unsafeWindow.RendaConfig[option].enabled);
-    element.classList.toggle("switch_off", !unsafeWindow.RendaConfig[option].enabled);
+    element.firstElementChild.classList.toggle("switch_on", unsafeWindow.RendaConfig[option].enabled);
+    element.firstElementChild.classList.toggle("switch_off", !unsafeWindow.RendaConfig[option].enabled);
 }
 
 const createSwitch = (imageSrc, option) => {
@@ -192,7 +193,7 @@ const switchElements = {};
 switches.forEach(switchInfo => {
     const { src, option } = switchInfo;
     const switchElement = createSwitch(src, option);
-    switchElements.name = switchElement;
+    switchElements[option] = switchElement;
     switchContainer.appendChild(switchElement);
 });
 floatingWindow.appendChild(switchContainer);
