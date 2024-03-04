@@ -1,4 +1,3 @@
-
 unsafeWindow.RendaConfig = {
     multiply: 1,
     delay: 50,
@@ -167,7 +166,7 @@ const createSwitch = (imageSrc, option) => {
     imgElement.classList.add(`svg_${option}`, "switch_off");
     switchElement.appendChild(imgElement);
     switchElement.addEventListener("click", () => {
-        toogleSwitch(imgElement, option);
+        toogleSwitch(switchElement, option);
     });
     return switchElement;
 };
