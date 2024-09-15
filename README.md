@@ -39,4 +39,4 @@ Renda - это мощный кликер припасов для игры Тан
 
 ## Обратная связь
 По всем вопросам/предложениям писать [neontechfox](https://discordapp.com/users/1086946472576159794) | Discord  
-Наш [сервер discord](https://discord.gg/HyczycuQFr)  
+Наш [сервер discord](https://discord.gg/8TSPw9akzp)  
