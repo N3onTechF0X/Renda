@@ -35,8 +35,8 @@ unsafeWindow.rendaSettings = {
             config.binds.menu = key;
             saveConfig();
         },
-        icon: (key) => {
-            config.binds.icon = key;
+        mines: (key) => {
+            config.binds.mines = key;
             saveConfig();
         },
         supplies: (key) => {
