@@ -7,7 +7,7 @@ Renda - это мощный кликер припасов для игры Тан
 
 ## Установка
 1. TamperMonkey - [click](https://www.tampermonkey.net)
-2. Renda - [click](https://github.com/N3onTechF0X/Renda/raw/main/Renda.user.js)
+2. Renda - [click](https://raw.githubusercontent.com/N3onTechF0X/Renda/main/Renda.user.js)
 
 ## Использование
 
