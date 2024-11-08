@@ -343,7 +343,6 @@ const closeMenu = () => {
 let isMenuOpen = false;
 document.addEventListener("keyup", ({code}) => {
     if (document.querySelector('input[type="text"]') !== null) return;
-    console.log(code, config.binds.menu);
     switch (code) {
         case config.binds.menu:
             isMenuOpen ? closeMenu() : openMenu();
