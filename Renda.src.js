@@ -12,10 +12,6 @@ const standartConfig = {
         posY: "1rem",
         posX: "1rem"
     },
-    icon: {
-        posY: "1rem",
-        posX: "1rem"
-    },
     binds: {
         menu: "KeyM",
         mines: "Quote",
@@ -84,19 +80,6 @@ styleElement.textContent = `
 }
 .animOut {
     animation: animOut 0.3s forwards;
-}
-.floating_icon{
-    backdrop-filter:blur(2px);
-    position:fixed;
-    top:${config.icon.posY};
-    left:${config.icon.posX};
-    z-index:9999;
-}
-.floating_logo{
-    opacity:0.6;
-    width:5rem;
-    height:5rem;
-    border-radius:50%;
 }
 .renda_window{
     opacity: 0;
