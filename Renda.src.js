@@ -325,7 +325,7 @@ const closeMenu = () => {
 
 let isMenuOpen = false;
 document.addEventListener("keyup", ({code}) => {
-    if (document.querySelector('input[type="text"]') !== null) return;
+    if (document.querySelector('.BattleHudComponentStyle-hudContainer input') !== null) return;
     switch (code) {
         case config.binds.menu:
             isMenuOpen ? closeMenu() : openMenu();
